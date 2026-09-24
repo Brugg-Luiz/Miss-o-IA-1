@@ -1,10 +1,11 @@
 :root {
-  --cor-fundo: #01080E;
-  --cor-principal: #0B0D20;
-  --cor-secundaria: #212333;
-  --cor-destaque: #2BDEFD;
-  --cor-texto: #D7F9FF;
+  --cor-fundo: #F4F7F9;        /* Um cinza bem claro com toque azulado para o fundo */
+  --cor-principal: #FFFFFF;    /* Branco puro para a caixa do quiz se destacar */
+  --cor-secundaria: #E1E8ED;   /* Cinza claro para o fundo padrão dos botões */
+  --cor-destaque: #3A86FF;     /* Azul moderno e vivo para os títulos, bordas e destaque */
+  --cor-texto: #2B3A4A;        /* Azul escuro acinzentado para garantir excelente leitura */
 }
+
 body {
   background-color: var(--cor-fundo);
   color: var(--cor-texto);
@@ -12,25 +13,62 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  margin: 0;
+  font-family: sans-serif;
 }
+
 .caixa-principal {
   background-color: var(--cor-principal);
   width: 90%;
+  max-width: 600px;
   text-align: center;
-  padding: 20px;
+  padding: 30px;
+  border-radius: 20px;
+  /* Sombra suave para dar profundidade no fundo claro */
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05); 
+  border: 1px solid var(--cor-secundaria);
 }
+
 h1 {
   color: var(--cor-destaque);
+  margin-top: 0;
 }
+
+.caixa-perguntas {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+  line-height: 1.5;
+  font-weight: 500; /* Deixa o texto da pergunta levemente mais firme */
+}
+
+.caixa-alternativas {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
 button {
-  background-color: var(--cor-principal);
-  color: var(--cor-destaque);
-  border: none;
+  background-color: var(--cor-principal); /* Fundo branco para os botões */
+  color: var(--cor-texto);
+  border: 2px solid var(--cor-secundaria); /* Borda discreta */
   border-radius: 15px;
   padding: 15px;
-  transition: background-color 0.3s;
+  font-size: 1rem;
+  cursor: pointer;
+  font-weight: 500;
+  transition: all 0.25s ease;
 }
+
 button:hover {
   background-color: var(--cor-destaque);
-  color: var(--cor-secundaria);
+  color: #FFFFFF; /* Texto muda para branco ao passar o mouse para dar contraste */
+  border-color: var(--cor-destaque);
+  transform: translateY(-2px); /* Efeito suave de flutuar ao passar o mouse */
+  box-shadow: 0 4px 12px rgba(58, 134, 255, 0.2); /* Sombra colorida no hover */
+}
+
+.texto-resultado {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: var(--cor-texto);
 }
