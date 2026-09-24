@@ -1,17 +1,17 @@
 const perguntas = [
     {
-        enunciado: "Como a caça ilegal afeta o equilíbrio das cadeias alimentares e a preservação de espécies ameaçadas de extinção nas florestas tropicais?",
+        enunciado: "Sabendo que a agricultura consome muita água, qual é a melhor estratégia para o agricultor produzir alimentos sem desperdiçar esse recurso essencial?",
         alternativas: [
             {
-                texto: "A caça ilegal compromete a biodiversidade ao reduzir drasticamente as populações de espécies-chave, o que pode levar ao      colapso de ecossistemas inteiros.",
-                afirmacao: ["A remoção de predadores e espécies-chave quebra o controle populacional da fauna local, desequilibrando a cadeia alimentar e ameaçando o colapso do ecossistema.",
-                           "Quando predadores e espécies-chave são eliminados, o controle da fauna local se perde, desregulando a rede alimentar e colocando todo o ecossistema em risco de colapso."
+                texto: "Instalar sistemas de irrigação por gotejamento, que levam a água direto para a raiz da planta, e monitorar a umidade do solo.",
+                afirmacao: ["Você demonstra uma visão focada em tecnologia e eficiência. Ele entende que a economia de água no campo evita o esgotamento dos rios e garante que a fazenda continue produzindo mesmo em períodos de seca.",
+                           "Você escolhe essa alternativa prioriza o combate ao desperdício. Essa postura mostra a compreensão de que a água é um recurso finito e que o agro moderno precisa usar a tecnologia para ser sustentável."
              ]
              },
             {
-                texto:  "A remoção de animais frugívoros pela caça ilegal prejudica a dispersão de sementes, afetando diretamente a regeneração natural das florestas.",
-                afirmacao:[ "A redução de animais frugívoros impede a dispersão natural de sementes, bloqueando a reprodução das árvores e comprometendo o futuro da floresta.",
-                            "Sem uma população suficiente de animais que se alimentam de frutos, as sementes não se espalham naturalmente, travando a regeneração das árvores e ameaçando a floresta."
+                texto:  "Adotar o plantio direto, mantendo a palha da colheita anterior sobre a terra para evitar que a água do solo evapore com o sol.",
+                afirmacao:[ "Essa sua escolha revela um perfil que valoriza soluções naturais e conservacionistas. Ao proteger o solo com a palhada, o estudante percebe que a própria natureza ajuda a reter a umidade e a proteger a terra da erosão.",
+                            "O seu foco aqui está na conservação do solo como chave para a sustentabilidade. Manter a terra coberta reduz a necessidade de regas constantes, economizando energia e preservando o ecossistema local."
              ]
              }    
            
@@ -19,37 +19,37 @@ const perguntas = [
     },
     {
        
-            enunciado: "Quais das opções a seguir apresentam formas reais pelas quais a caça ilegal afeta o meio ambiente e as comunidades locais?",
+            enunciado: "Quando uma plantação é atacada por insetos que comem as folhas, como o produtor pode resolver o problema de forma sustentável?",
             alternativas: [
                 {
-                    texto: "Provoca a alteração da estrutura vegetal da floresta ao diminuir o consumo e o pisoteio natural de herbívoros.",
-                    afirmacao:[ "A escassez de herbívoros modifica a densidade do solo e a competição entre plantas, alterando toda a composição e a estrutura da vegetação local.",
-                                    "Sem uma população suficiente de animais que se alimentam de frutos, as sementes não se espalham naturalmente, travando a regeneração das árvores e ameaçando a floresta."
+                    texto: "Usar o controle biológico, inserindo na lavoura insetos benéficos (como joaninhas ou pequenas vespas) que são inimigos naturais das pragas.",
+                    afirmacao:[ "Você opta pelo controle biológico entende como as cadeias alimentares funcionam na natureza. Ele prefere restabelecer o equilíbrio ecológico a usar produtos químicos que poderiam poluir o meio ambiente.",
+                                    "Esta sua resposta mostra um perfil inovador e consciente. Ao usar predadores naturais, evita-se a contaminação dos alimentos e protege-se a saúde dos trabalhadores rurais e dos consumidores."
              ]
              },
                 {
-                    texto:  "Alimenta redes do crime organizado transnacional, enfraquecendo a segurança e a governança nas regiões afetadas. ",
-                    afirmacao:[ "O comércio ilícito de fauna financia redes criminosas globais, promovendo a corrupção, a violência e a instabilidade econômica em comunidades vulneráveis.",
-                                    "Ao financiar redes criminosas pelo mundo, o comércio ilegal de fauna gera corrupção e violência, além de desestabilizar a economia de comunidades vulneráveis."
+                    texto:  "Fazer a rotação de culturas, mudando as espécies de plantas a cada safra para que os insetos da praga fiquem sem alimento e sumam.",
+                    afirmacao:[ "Essa sua escolha mostra uma mente estratégica. O estudante compreende que quebrar o ciclo de reprodução das pragas através da variedade de cultivos é uma forma inteligente e barata de proteger a fazenda.",
+                                    "Você que escolhe a rotação de culturas valoriza o planejamento a longo prazo. Além de afastar as pragas de forma natural, essa prática melhora os nutrientes da terra, deixando o solo mais rico."
              ]
              }    
                
             ]
         },
         {
-            enunciado: "De que maneiras a perda de animais frugívoros devido à caça afeta a estrutura e a saúde das florestas tropicais?",
+            enunciado: "De que maneira a preservação das Áreas de Preservação Permanente (APPs), como as matas na beira dos rios dentro das fazendas, ajuda o próprio agricultor?",
 
             alternativas: [
                 {
-                    texto: "Diminui a diversidade de plantas nativas, pois sementes grandes deixam de ser transportadas para novas áreas.",
-                    afirmacao:["Sem grandes frugívoros para dispersar sementes pesadas, as espécies de árvores de grande porte não se reproduzem longe da planta-mãe. Isso reduz a diversidade genética e compromete o surgimento de novas gerações dessas árvores na floresta.",
-                                    "A ausência de grandes frugívoros afeta diretamente a reprodução das árvores maiores, pois restringe o alcance de suas sementes, diminui a genética local e ameaça a geração futura da floresta."
+                    texto: "As árvores dessas matas atraem insetos polinizadores (como abelhas) e pássaros, que ajudam a aumentar a produção das plantações vizinhas.",
+                    afirmacao:["Você consegue enxergar a conexão direta entre a floresta em pé e o sucesso da colheita. Ele entende que a biodiversidade trabalha a favor do agricultor, melhorando a polinização e os frutos.",
+                                    "A sua escolha mostra uma visão integrada da fazenda, onde a natureza e a lavoura se ajudam. Preservar as abelhas e pássaros garante um serviço ambiental gratuito que melhora a qualidade do alimento produzido."
              ]
              },
                 {
-                    texto:    "Altera a composição da vegetação, favorecendo a proliferação de plantas com sementes menores ou dispersas pelo vento.",
-                    afirmacao:[ "A ausência de grandes animais abre espaço para a proliferação de plantas oportunistas ou de sementes leves. Com o tempo, a floresta perde sua estrutura original e diminui sua capacidade de estocar carbono.",
-                                    "A escassez de grandes animais favorece o avanço de plantas oportunistas e espécies de sementes leves. Gradualmente, a floresta vê sua estrutura original se degradar, reduzindo sua eficiência no armazenamento de carbono."
+                    texto:    "A vegetação nativa segura a terra com suas raízes, impedindo que a chuva cause erosão e jogue lama nos rios que abastecem a propriedade.",
+                    afirmacao:[ "O seu perfil é focado na proteção dos recursos hídricos e do solo. Ele compreende que uma margem de rio desprotegida destrói a qualidade da água que a própria fazenda precisa para sobreviver.",
+                                    "Você entende o conceito de segurança ambiental. Proteger as margens evita desmoronamentos e garante que o rio continue limpo e saudável para o gado, para a irrigação e para a comunidade."
              ]
              }    
                
