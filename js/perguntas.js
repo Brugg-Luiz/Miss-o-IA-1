@@ -1,4 +1,4 @@
-const perguntas = [
+export const perguntas = [
     {
         enunciado: "Sabendo que a agricultura consome muita água, qual é a melhor estratégia para o agricultor produzir alimentos sem desperdiçar esse recurso essencial?",
         alternativas: [
