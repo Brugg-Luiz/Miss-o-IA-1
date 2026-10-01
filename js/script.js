@@ -40,11 +40,11 @@ function respostaSelecionada(opcaoSelecionada) {
 
 }
 function mostraResultado() {
-caixaPerguntas.textContent = "Em 2049...';
+caixaPerguntas.textContent = "Em 2049...";
 textoResultado.textContent = historiaFinal;
 caixaAlternativas.textContent = "";
 caixaResultado.classList.add("mostrar");
-botaoJogarNovamente.addEventListener("click", jogaNovamente());
+ botaoJogarNovamente.addEventListener("click", jogaNovamente());
 }
    function aleatorio(lista) {
 const posicao = Math.floor(Math.random()* lista.length);
