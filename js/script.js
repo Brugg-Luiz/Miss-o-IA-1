@@ -39,11 +39,13 @@ function respostaSelecionada(opcaoSelecionada) {
     mostraPergunta();
 
 }
-function mostraResultado(){
-    caixaPerguntas.textContent = "Olha só o que podemos afirmar sobre você...";
-    textoResultado.textContent = historiaFinal;
-    caixaAlternativas.textContent = "";
-}    function aleatorio(lista) {
+function mostraResultado() {
+caixaPerguntas.textContent = "Em 2049...";
+textoResultado.textContent = historiaFinal;
+caixaAlternativas.textContent = "";
+botaoJogarNovamente.addEventListener("click", jogaNovamente());
+}
+   function aleatorio(lista) {
 const posicao = Math.floor(Math.random()* lista.length);
 return lista[posicao];
 }
