@@ -47,3 +47,7 @@ function mostraResultado(){
 const posicao = Math.floor(Math.random()* lista.length);
 return lista[posicao];
 }
+function jogaNovamente(){
+    atual = 0;
+    historiaFinal = "";
+    mostraPergunta();
