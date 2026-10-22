@@ -13,7 +13,7 @@ let perguntaAtual;''''''
 let historiaFinal = "";
 
 function mostraPergunta(){
-    if(atual >= perguntas.length){
+    if(atual >= perguntas.length){https://brugg-luiz.github.io/Miss-o-IA-1/
         mostraResultado();
         return;
     }
@@ -44,7 +44,7 @@ caixaPerguntas.textContent = "Em 2049...";
 textoResultado.textContent = historiaFinal;
 caixaAlternativas.textContent = "";
 caixaResultado.classList.add("mostrar");
-botaoJogarNovamente.addEventListener("click", jogaNovamente());
+botaoJogarNovamente.addEventListener("click", jogaNovamente();
 }
    function aleatorio(lista) {
 const posicao = Math.floor(Math.random()* lista.length);
